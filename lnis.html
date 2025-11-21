@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Останній фільм який я подивився</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f0ec;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .container {
+        text-align: center;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .movie-card {
+        width: 350px;
+        max-width: 100%;
+        background-color: #f3f0ec;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .movie-card img {
+        width: 100%;
+        display: block;
+    }
+
+    .movie-info {
+        padding: 25px;
+        text-align: left;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    .title-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+
+    .title-line h2,
+    .title-line .year {
+        margin: 0;
+    }
+
+    .movie-info .detail {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.9rem;
+        margin: 12px 0 0;
+        letter-spacing: 0.5px;
+        line-height: 1.4;
+    }
+</style>
+
+</head>
+<body><div class="container">
+    <h1>Останній фільм який я подивився</h1>
+    
+    <div class="movie-card">
+        
+        <!-- Фото з фільму вставлене сюди -->
+        <img src="soho_scene.jpg" alt="Кадр з фільму Last Night in Soho">
+        
+   
+        <div class="movie-info">
+            <div class="title-line">
+                <h2>Last Night in Soho</h2>
+                <span class="year">2021</span>
+            </div>
+            
+            <p class="detail">
+                <span>running time</span> 116 minutes
+            </p>
+            <p class="detail">
+                <span>directed by</span> Edgar Wright
+            </p>
+            <p class="detail">
+                <span>produced by</span> Nira Park, Tim Bevan, Eric Fellner
+            </p>
+            <p class="detail">
+                <span>starring</span> Anya Taylor-Joy, Thomasin McKenzie, Matt Smith
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
